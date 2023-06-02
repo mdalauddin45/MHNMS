@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 shadow-lg ">
     <div className="navbar-start">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -9,13 +9,12 @@ const Header = () => {
         </label>
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li><a>Homepage</a></li>
-          <li><a>Portfolio</a></li>
           <li><a>About</a></li>
         </ul>
       </div>
     </div>
     <div className="navbar-center">
-      <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a className="btn btn-ghost normal-case text-xl">মের্সাস হাজী নওশা মিয়া ‍এন্ড সন্স</a>
     </div>
     <div className="navbar-end">
       <button className="btn btn-ghost btn-circle">
