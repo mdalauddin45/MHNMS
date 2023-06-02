@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Home/>
     </div>
   );
 }
